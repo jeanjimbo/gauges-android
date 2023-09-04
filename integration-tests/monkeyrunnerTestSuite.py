@@ -15,7 +15,7 @@ package = 'com.github.mobile.gauges'
 activity = 'com.github.mobile.gauges.ui.GaugeListActivity'
 
 # sets the name of the component to start
-runComponent = package + '/' + activity
+runComponent = f'{package}/{activity}'
 
 # Runs the component
 device.startActivity(component=runComponent)
